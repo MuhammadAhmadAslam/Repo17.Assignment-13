@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'quick';
+    src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+nav h5{
+    display: inline-block;
+}
+#main1{
+    background-color: #252B42;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.logo{
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        margin-left: 100px;
+        color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    margin-left: 290px;
+    color: white;
+    font-family: 'quick';
+    font-size: large;
+    margin-top: 20px;
+}
+.navi{
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+    font-family: 'quick';
+    font-size: large;
+}
+nav .button1{
+    margin-left: 140px;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+nav .button2{
+    color: white;
+    background-color: #23A6F0;
+    border: none;
+    font-size: larger;
+    width: 100px;
+    margin-left: 50px;
+}
+.heading4{
+    position: absolute;
+    margin-left: 650px;
+    color: #23A6F0;
+    top: 170px;
+    font-family: 'ubuntu';
+}
+.heading1{
+     position: absolute;
+    margin-left: 520px; 
+    text-align: center;
+    color: white;
+    top: 210px;
+    font-size: 250%;
+    font-family: 'ubuntu';
+    line-height: 50px;
+}
+#para1{
+    position: absolute;
+   margin-left: 440px; 
+   text-align: center;
+   color: white;
+   top: 340px;
+   font-size: 130%;
+   font-family: 'ubuntu';
+   line-height: 30px;
+}
+#button3{
+    background-color: #23A6F0;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 34px;
+    font-size: medium;
+    font-family: 'quick';
+    position: absolute;
+    margin-left: 510px;
+    top: 440px;
+}
+#button4{
+    background-color: transparent;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    width: 160px;
+    height: 34px;
+    font-size: medium;
+    font-family: 'quick';
+    position: absolute;
+    margin-left: 690px;
+    top: 440px;
+}
+#main2{
+    background-color: #252B42;
+    height: 700px;
+}
+ #d1{
+     background-color: #23A6F0;
+     top: 975px;
+     width: 370px;
+     margin-right: 130px;
+     height: 440px;
+     float: right;
+
+     
+}
+#d1 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'quick';
+    margin-right: 30px;
+    color: white;
+}
+#d1 img{
+    width: 90px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+#d1 h4{
+    margin-left: 30px;
+    font-family: 'quick';
+    color: white;
+    margin-top: 20px;
+}
+#d2{
+    background-color: white;
+    top: 990px;
+    width: 370px;
+    margin-left: 100px;
+    height: 440px;
+    float: left;
+}
+#d2 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'quick';
+    margin-right: 30px;
+    
+}
+#d2 img{
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#d2 h4{
+    margin-left: 30px;
+    font-family: 'quick';
+    
+}
+#d3{
+    background-color: white;
+    top: 643px;
+    width: 370px;
+    margin-left: 490px;
+    height: 440px;
+    float: left;
+    position: absolute;
+}
+#d3 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'quick';
+    margin-right: 30px;
+}
+#d3 img{
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#d3 h4{
+    margin-left: 30px;
+    font-family: 'quick';
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo,
+    .nav,
+    .navi,
+    nav .button1,
+    nav .button2 {
+        margin-left: 0;
+    }
+}
